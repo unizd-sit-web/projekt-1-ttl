@@ -167,6 +167,9 @@ nav{
     padding: 15px 0 25px;
     color: #777;
 }
+.gallery{
+    margin: 10px 50px;
+}
 .ap-1{
     padding-top: 50px;
     padding-bottom: 30px;
@@ -175,11 +178,14 @@ nav{
     padding-top: 20px;
     padding-bottom: 30px;
 }
-.ap-1 img{
+.gallery img{
     width: 150px;
     height: 150px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
 }
-.ap-2 img{
-    width: 150px;
-    height: 150px;
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
