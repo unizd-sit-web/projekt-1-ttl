@@ -167,3 +167,19 @@ nav{
     padding: 15px 0 25px;
     color: #777;
 }
+.ap-1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.ap-2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.ap-1 img{
+    width: 150px;
+    height: 150px;
+}
+.ap-2 img{
+    width: 150px;
+    height: 150px;
+}
