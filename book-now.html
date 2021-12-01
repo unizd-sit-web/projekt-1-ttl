@@ -29,7 +29,46 @@
        </nav>
        <h1>Book Now!</h1>
    </section>
-   <!----------book now content----------->
+<!----------book now content----------->
+
+   <section class="banner">
+       <h2>BOOK APARTMENT NOW!</h2>
+       <div class="card-container">
+           <div class="card-img">
+
+           </div>
+           <div class="card-content">
+               <h3>Reservation</h3>
+               <form>
+                   <div class="form-row">
+                        <label for="start">Date:</label>
+                        <input type="date" id="start" name="trip-start"
+                           value="2021-12-01"
+                           min="2021-12-01" max="2022-12-31">
+                       <select name="hour">
+                           <option value="hour-select">Select Hour</option>
+                           <option value="8">8:00</option>
+                           <option value="10">10:00</option>
+                           <option value="12">12:00</option>
+                           <option value="14">14:00</option>
+                           <option value="16">16:00</option>
+                           <option value="18">18:00</option>
+                           <option value="20">20:00</option>
+                           <option value="22">22:00</option>
+                       </select>
+                   </div>
+                   <div class="form-row">
+                       <input type="text" placeholder="Full Name" required>
+                       <input type="text" placeholder="Phone Number" required>
+                   </div>
+                   <div class="form-row">
+                       <input type="number" placeholder="How Many Person?" min="1">
+                       <input type="submit" value="BOOK APARTMENT">
+                   </div>
+               </form>
+           </div>
+       </div>
+   </section>
    
 
 <!------------footer--------->
