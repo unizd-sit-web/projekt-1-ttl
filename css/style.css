@@ -1,3 +1,4 @@
+/*---------- css koji se odnosi na sve -----------*/
 *{
     margin: 0;
     padding: 0;
@@ -246,6 +247,7 @@ nav{
     margin: 10px;
     margin-right: 30px;
 }
+/*-----------book now page--------------*/
 .banner{
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/dest13.jpg) center/ cover no-repeat;
